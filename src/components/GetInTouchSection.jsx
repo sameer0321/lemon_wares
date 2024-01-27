@@ -5,7 +5,7 @@ import rightElipse from '../assets/images/right-elipse.webp'
 const Website = () => {
     return (
         <>
-            <div className='px-6 overflow-hidden' data-aos="zoom-in">
+            <div className='px-6 overflow-hidden' data-aos="zoom-in" id='contact'>
                 <div className="max-w-[1232px] relative mx-auto px-3 bg-slate-50 rounded-2xl pt-[80px] pb-[88px] my-[70px]" >
                     <h2 className="max-w-[1024px] text-center mx-auto text-[#2E2E2E] sm:text-[50px] text-[28px] md:text-[64px] font-semibold font-poppins md:leading-[88px] sm:leading-[70px] leading-[35px]">We're here to make your website awesome.</h2>
                     <a href="https://web.whatsapp.com/" target='_blank'> <button className="text-white hover:border-2 hover:border-red-700 border-2 border-transparent group text-sm font-normal font-Poppins leading-normal pt-3 px-4  pb-[11px] bg-red-700 rounded-lg justify-center items-start gap-[9px] flex mx-auto mt-[40px] duration-300 hover:bg-white hover:text-red-700"><svg className='' xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" >

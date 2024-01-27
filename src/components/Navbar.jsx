@@ -20,7 +20,7 @@ const Navbar = () => {
                         <div className="flex items-center gap-[48px] xl:gap-[62px]">
                             <img className="max-w-[92px]" src={logo} alt="logo" />
                             <a
-                                href="#!"
+                                href="#ourservices"
                                 className=" max-sm:hidden font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-3 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%]"
                             >
                                 Our Services
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <ul className="flex items-center gap-[33px] flex-col lg:flex-row">
                                 <li>
                                     <a onClick={setopen}
-                                        href="#!"
+                                        href="#ourservices"
                                         className=" font-[Poppins] font-semibold text-[#000] sm:hidden text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-3 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%]"
                                     >
                                         Our Services
@@ -41,7 +41,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <a onClick={setopen}
-                                        href="#1"
+                                        href="#about"
                                         className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-1 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%] "
                                     >
                                         About{" "}
@@ -49,7 +49,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <a onClick={setopen}
-                                        href="#1"
+                                        href="#blog"
                                         className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-2 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%] "
                                     >
                                         Blog&News{" "}
@@ -57,7 +57,7 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <a onClick={setopen}
-                                        href="#1"
+                                        href="#contact"
                                         className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal  relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-2 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%]"
                                     >
                                         Contact{" "}
@@ -72,7 +72,7 @@ const Navbar = () => {
                                     Account
                                 </a>
                                 <a onClick={setopen}
-                                    href="#!"
+                                    href="tel:2349067322844"
                                     className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal flex items-center gap-[6px] lg:pe-[52px]  relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-7 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[77%]"
                                 >
                                     <span>
@@ -92,7 +92,7 @@ const Navbar = () => {
                                 Account
                             </a>
                             <a
-                                href="#!"
+                                href="tel:2349067322844"
                                 className=" font-[Poppins] font-semibold text-[#000] text-[15px] leading-normal flex items-center gap-[6px] lg:pe-[52px] relative before:w-0 before:h-[2px] before:rounded-[10px] before:bg-[#B00000] before:absolute before:left-7 before:bottom-[-10%] before:duration-300 before:transition-all before:ease-linear before:hover:w-[62%] "
                             >
                                 <span>

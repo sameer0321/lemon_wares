@@ -9,7 +9,7 @@ import CloudFlare from "../assets/images/cloudFlare.webp";
 const Truecloud = () => {
     return (
         <>
-            <div className=' max-w-[1280px] mx-auto px-3 py-10 container'>
+            <div className=' max-w-[1280px] mx-auto px-3 py-10 container' id='ourservices'>
                 <div className='flex flex-wrap flex-row -mx-3'>
                     <div className='w-full lg:w-1/2 px-3'>
                         <h2 className=" text-zinc-900 sm:text-[35px] text-[30px] md:text-[40px] lg:text-5xl font-extrabold font-['Inter'] leading-[40px] sm:leading-[64px]">True Cloud Web  Hosting</h2>

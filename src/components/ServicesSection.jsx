@@ -10,7 +10,7 @@ const ServicesSection = () => {
     ]
     return (
         <>
-            <div className=' mx-auto container  max-w-[1304px] px-3 '>
+            <div className=' mx-auto container  max-w-[1304px] px-3 ' id='about'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-full lg:gap-5 xl:gap-[27px] my-8 sm:my-10 md:my-16 lg:my-[90px]' data-aos="fade-down" >
                     {products.map((items, index) => (
                         <div key={index} className='w-full bg-white duration-300  mb-4'>

@@ -5,7 +5,7 @@ import img3 from '../assets/images/img-3.webp'
 import { RedQuotes, Quotes } from './Icon'
 const Stories = () => {
     return (
-        <div className='container mx-auto max-w-[1220px] py-5 mt-[40px] sm:py-10 px-3 overflow-hidden' id='account'>
+        <div className='container mx-auto max-w-[1220px] py-5 mt-[40px] sm:py-10 px-3 overflow-hidden' id='blog'>
             <div className='grid grid-cols-1 lg:grid-cols-2 my-10 sm:my-16 lg:my-20 gap-4 sm:gap-6 lg:gap-[30px]'>
                 <div className='flex flex-col lg:items-end lg:pl-[100px]'>
                     <div className='relative max-sm:pl-4  max-lg:pl-[100px]'>
